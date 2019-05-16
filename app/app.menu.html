@@ -1,0 +1,15 @@
+<section class="menu-section">
+    <button class="display-menu" (click)="displaySounds()">CHANGE SOUND</button>
+
+    <section class="menu" id="menu">
+        <section>
+            <div id="classic" (click)="changeSound('classic'); closeSounds()"></div>
+            <div id="duck" (click)="changeSound('duck'); closeSounds()"></div>
+            <div id="note" (click)="changeSound('note'); closeSounds()"></div>
+        </section>
+        <section>
+            <div id="horn" (click)="changeSound('horn'); closeSounds()"></div>
+        </section>
+    </section>
+    <button class="display-menu" id="more-sounds" (click)="presentConfirm()"> &#8227; MORE SOUNDS</button>
+</section>

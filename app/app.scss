@@ -1,0 +1,85 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+body {
+    background-color: #e4e4e4;
+}
+
+.button {
+    padding-top: 50%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.menu-section {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.display-menu {
+    width: 200px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.menu {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 2px;
+    background-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.menu section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu div {
+	display: inline-block;
+	background-color: black;
+	width: 50px;
+	height: 50px;
+	color: white;
+}
+
+#duck {	
+	background: url('../assets/imgs/css_sprites.png') -10px -10px;
+}
+
+#classic {
+	background: url('../assets/imgs/css_sprites.png') -10px -80px;
+}
+
+#note {
+	background: url('../assets/imgs/css_sprites.png') -80px -10px;
+}
+
+#horn {
+    background-image: url('../assets/imgs/ihorn.png');
+    display: none;
+}
+
+
